@@ -1,9 +1,13 @@
-# Example: Simple packet filtering using sockets
+# Simple packet filtering using sockets
 import socket
 
 def firewall(packet):
-    # Implement your filtering logic here
-    return True  # Allow all traffic for simplicity in this example
+    
+    # remember this part 
+    # u need to add rule or connect the gui
+    # remembeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrrrrrr
+    
+    return True  # Allow all traffic
 
 def main():
     # Set up a socket to capture network traffic

@@ -1,5 +1,4 @@
-import tkinter as tk
-from tkinter import scrolledtext
+from tk import scrolledtext
 import logging
 
 class LogViewerApp:

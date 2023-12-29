@@ -1,5 +1,6 @@
 from scapy.all import *
 from scapy.layers.inet import *
+
 def packet_callback(packet):
     # Extract source and destination IP addresses
     src_ip = packet[IP].src
