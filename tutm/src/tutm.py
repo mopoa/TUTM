@@ -1,4 +1,5 @@
-from tk import scrolledtext
+import tkinter as tk
+from tkinter import scrolledtext
 import logging
 
 class LogViewerApp:
@@ -12,6 +13,7 @@ class LogViewerApp:
 
         # Configure logging to redirect logs to the GUI
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+        #logging.basicConfig(filename='utm_log.txt', level=logging.INFO)
         self.log_handler = TextHandler(self.log_text)
         logging.getLogger().addHandler(self.log_handler)
 
