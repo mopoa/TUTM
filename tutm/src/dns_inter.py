@@ -1,5 +1,6 @@
 import dns.message
 import dns.query
+from scapy.all import sniff
 
 def dns_filter(query, allowed_domains):
     domain = str(query.question[0].name)
