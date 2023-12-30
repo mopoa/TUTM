@@ -1,6 +1,8 @@
 # Simple packet filtering using sockets
 import socket
 
+virusSign=[]
+
 def firewall(packet):
     
     # remember this part 
